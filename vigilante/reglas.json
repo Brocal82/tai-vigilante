@@ -1,0 +1,37 @@
+{
+  "_ayuda": "Reglas editables sin tocar código. Los patrones son expresiones regulares sin distinguir mayúsculas. Se aplica la PRIMERA regla de 'tipos' que coincida.",
+  "relevancia_tai": [
+    "t[eé]cnicos?\\s+auxiliares?\\s+de\\s+inform[aá]tica\\s+de\\s+la\\s+administraci[oó]n\\s+del\\s+estado",
+    "\\bTAI(?:S)?[-\\s]?(?:L|PI)?\\b(?!EX)",
+    "cuerpo\\s+TAI\\b"
+  ],
+  "excluir_tai": [
+    "universidad", "ayuntamiento", "diputaci[oó]n", "comunidad aut[oó]noma", "TAIEX"
+  ],
+  "tipos": [
+    {"categoria": "Corrección de errores", "grupo": "convocatorias", "nivel": "importante", "patron": "correcci[oó]n de errores|se corrigen errores|corrige errores"},
+    {"categoria": "Lista de admitidos y excluidos", "grupo": "convocatorias", "nivel": "urgente", "patron": "admitid|excluid"},
+    {"categoria": "Fecha, hora o lugar de examen", "grupo": "convocatorias", "nivel": "urgente", "patron": "llamamiento|lugar,? (?:fecha|d[ií]a)|fecha(?:s)? (?:y|,)? ?(?:lugar|hora)|se anuncia la fecha|celebraci[oó]n del (?:primer|segundo|tercer)? ?ejercicio|ejercicio (?:primero|[uú]nico)"},
+    {"categoria": "Convocatoria o plazo de inscripción", "grupo": "convocatorias", "nivel": "urgente", "patron": "se convoca|se convocan|convocatoria|plazo de presentaci[oó]n|solicitudes|inscripci[oó]n"},
+    {"categoria": "Exámenes y plantillas", "grupo": "resultados", "nivel": "importante", "patron": "plantilla|cuestionario|respuestas correctas|ejercicio realizado"},
+    {"categoria": "Resultados", "grupo": "resultados", "nivel": "importante", "patron": "aprobad|calificaci|resultado|puntuaci|relaci[oó]n de (?:personas|aspirantes)|superan"},
+    {"categoria": "Oferta de empleo y plazas", "grupo": "convocatorias", "nivel": "importante", "patron": "oferta de empleo|plazas|\\bOEP\\b"},
+    {"categoria": "Tribunal calificador", "grupo": "convocatorias", "nivel": "informativo", "patron": "tribunal"}
+  ],
+  "programa": {
+    "_ayuda": "Cambio EFECTIVO del programa de la oposición: solo si el aviso ya es de TAI y habla del programa/temario/bases.",
+    "categoria": "Programa u bases del proceso",
+    "grupo": "programa",
+    "nivel": "importante",
+    "patron": "programa|temario|bases (?:espec[ií]ficas|de la convocatoria)|se modifica la (?:orden|resoluci[oó]n)"
+  },
+  "norma": {
+    "_ayuda": "Cambio de una norma citada en el temario. NO es un cambio del programa oficial.",
+    "categoria": "Norma del temario modificada",
+    "grupo": "normativa",
+    "nivel": "informativo",
+    "verbos": "modifica|modificaci[oó]n|deroga|texto refundido|se corrigen errores|correcci[oó]n de errores|se aprueba el reglamento|nueva ley"
+  },
+  "nivel_por_defecto": "informativo",
+  "categoria_por_defecto": "Otras novedades del proceso"
+}

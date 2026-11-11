@@ -1,0 +1,400 @@
+{
+ "generado_de": "data/temario",
+ "normas": [
+  {
+   "norma": "Constitución Española",
+   "temas": [
+    101,
+    102,
+    103
+   ]
+  },
+  {
+   "norma": "Directiva (UE) 2016/680",
+   "temas": [
+    107
+   ]
+  },
+  {
+   "norma": "Ley 11/2007",
+   "temas": [
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Ley 11/2022",
+   "temas": [
+    109
+   ]
+  },
+  {
+   "norma": "Ley 11/2023",
+   "temas": [
+    308
+   ]
+  },
+  {
+   "norma": "Ley 15/2022",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley 19/2013",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Ley 2/2023",
+   "temas": [
+    107
+   ]
+  },
+  {
+   "norma": "Ley 25/2013",
+   "temas": [
+    109
+   ]
+  },
+  {
+   "norma": "Ley 3/2015",
+   "temas": [
+    103
+   ]
+  },
+  {
+   "norma": "Ley 3/2024",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley 34/2002",
+   "temas": [
+    106
+   ]
+  },
+  {
+   "norma": "Ley 39/2006",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley 39/2015",
+   "temas": [
+    106,
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Ley 4/2023",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley 4/2026",
+   "temas": [
+    104,
+    105
+   ]
+  },
+  {
+   "norma": "Ley 40/2015",
+   "temas": [
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Ley 50/1996",
+   "temas": [
+    103
+   ]
+  },
+  {
+   "norma": "Ley 50/1997",
+   "temas": [
+    103
+   ]
+  },
+  {
+   "norma": "Ley 50/1998",
+   "temas": [
+    103
+   ]
+  },
+  {
+   "norma": "Ley 50/1999",
+   "temas": [
+    103
+   ]
+  },
+  {
+   "norma": "Ley 53/1984",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Ley 59/2003",
+   "temas": [
+    106
+   ]
+  },
+  {
+   "norma": "Ley 6/2020",
+   "temas": [
+    106,
+    109
+   ]
+  },
+  {
+   "norma": "Ley 6/2022",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 1/2004",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 1/2025",
+   "temas": [
+    103,
+    105
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 10/2022",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 15/1999",
+   "temas": [
+    106,
+    107,
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 2/1979",
+   "temas": [
+    102
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 2/1984",
+   "temas": [
+    107
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 2/2024",
+   "temas": [
+    102,
+    103
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 3/1981",
+   "temas": [
+    102
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 3/2007",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 3/2018",
+   "temas": [
+    106,
+    107
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 4/1981",
+   "temas": [
+    101
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 5/1985",
+   "temas": [
+    102
+   ]
+  },
+  {
+   "norma": "Ley Orgánica 7/2021",
+   "temas": [
+    107
+   ]
+  },
+  {
+   "norma": "Real Decreto 174/2011",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto 203/2021",
+   "temas": [
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Real Decreto 255/2025",
+   "temas": [
+    106
+   ]
+  },
+  {
+   "norma": "Real Decreto 3/2010",
+   "temas": [
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Real Decreto 311/2022",
+   "temas": [
+    108,
+    109,
+    308,
+    402,
+    405,
+    409
+   ]
+  },
+  {
+   "norma": "Real Decreto 33/1986",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto 364/1995",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto 365/1995",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto 4/2010",
+   "temas": [
+    108,
+    109
+   ]
+  },
+  {
+   "norma": "Real Decreto 598/1985",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto 888/2022",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto 901/2020",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto 902/2020",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto Legislativo 1/2013",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto Legislativo 5/2015",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto-ley 1/2013",
+   "temas": [
+    105,
+    308
+   ]
+  },
+  {
+   "norma": "Real Decreto-ley 11/2025",
+   "temas": [
+    105
+   ]
+  },
+  {
+   "norma": "Real Decreto-ley 5/2015",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto-ley 6/2023",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Real Decreto-ley 9/2025",
+   "temas": [
+    104
+   ]
+  },
+  {
+   "norma": "Reglamento (UE) 2016/679",
+   "temas": [
+    107
+   ]
+  },
+  {
+   "norma": "Reglamento (UE) 2022/2065",
+   "temas": [
+    106
+   ]
+  },
+  {
+   "norma": "Reglamento (UE) 2024/1183",
+   "temas": [
+    106
+   ]
+  },
+  {
+   "norma": "Reglamento (UE) 910/2014",
+   "temas": [
+    106
+   ]
+  }
+ ]
+}

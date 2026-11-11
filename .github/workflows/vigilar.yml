@@ -1,0 +1,57 @@
+name: Vigilar novedades TAI
+
+# Madrid = UTC+1 (invierno) / UTC+2 (verano). El script solo actúa desde las 8:00 de Madrid y una vez al día,
+# así que se programan varios disparos UTC; los sobrantes terminan sin hacer nada.
+# 09:00 UTC es una red de seguridad por si un disparo anterior falla o GitHub lo retrasa.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Ignorar la hora y el 'ya comprobado hoy'"
+        type: boolean
+        default: false
+      simular:
+        description: "No escribir ni avisar (solo prueba)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # solo para guardar docs/*.json en este repositorio
+
+concurrency:
+  group: vigilar
+  cancel-in-progress: false
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pruebas
+        run: python -m unittest discover -s tests -t .
+      - name: Vigilar
+        env:
+          EXPO_PUSH_TOKEN: ${{ secrets.EXPO_PUSH_TOKEN }}
+        run: |
+          args=""
+          if [ "${{ inputs.forzar }}" = "true" ]; then args="$args --forzar"; fi
+          if [ "${{ inputs.simular }}" = "true" ]; then args="$args --simular"; fi
+          python -m vigilante.main $args
+      - name: Guardar resultados
+        if: always()
+        run: |
+          git config user.name "tai-vigilante"
+          git config user.email "tai-vigilante@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then echo "Sin cambios"; else
+            git commit -m "Comprobación $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
