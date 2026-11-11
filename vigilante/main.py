@@ -131,7 +131,20 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--simular", action="store_true")
     ap.add_argument("--forzar", action="store_true")
-    return run(ap.parse_args(argv))
+    ap.add_argument("--probar-push", action="store_true",
+                    help="Envía solo una notificación de PRUEBA (no toca novedades ni estado)")
+    args = ap.parse_args(argv)
+    if args.probar_push:
+        token = os.environ.get("EXPO_PUSH_TOKEN", "").strip()
+        if not token:
+            print("Falta EXPO_PUSH_TOKEN.", file=sys.stderr)
+            return 1
+        ok, det = push.enviar(token, [{
+            "id": "prueba", "prueba": True, "nivel": "informativo", "categoria": "PRUEBA",
+            "titulo": "Notificación de prueba del vigilante TAI. No es una novedad oficial."}])
+        print("Prueba:", det)
+        return 0 if ok else 1
+    return run(args)
 
 
 if __name__ == "__main__":

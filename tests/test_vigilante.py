@@ -97,6 +97,12 @@ class Soporte(unittest.TestCase):
         self.assertIn("URGENTE", t)
         self.assertIn("2 novedades", c)
 
+    def test_push_de_prueba_se_distingue(self):
+        t, c, _ = push.componer([{"id": "prueba", "prueba": True, "nivel": "informativo", "categoria": "PRUEBA",
+                                  "titulo": "Notificación de prueba"}])
+        self.assertIn("PRUEBA", t)
+        self.assertNotIn("NOVEDAD", t)
+
     def test_push_simulado_no_envia(self):
         ok, det = push.enviar("tok", [{"id": "1", "nivel": "importante", "categoria": "c", "titulo": "t"}], simular=True)
         self.assertTrue(ok)

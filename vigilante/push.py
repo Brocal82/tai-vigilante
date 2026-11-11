@@ -8,6 +8,8 @@ ICONO = {"urgente": "🔴", "importante": "🟠", "informativo": "🔵"}
 
 def componer(nuevas):
     """Un solo aviso por ejecución, con el nivel más alto."""
+    if all(n.get("prueba") for n in nuevas):   # aviso de prueba: nunca se confunde con una novedad oficial
+        return "🧪 PRUEBA — TAI", nuevas[0]["titulo"][:180], "informativo"
     orden = ["urgente", "importante", "informativo"]
     nivel = min((n["nivel"] for n in nuevas), key=orden.index)
     titulo = {"urgente": "🔔 NOVEDAD URGENTE — TAI", "importante": "🔔 NOVEDAD IMPORTANTE — TAI",

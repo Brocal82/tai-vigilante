@@ -18,6 +18,10 @@ on:
         description: "No escribir ni avisar (solo prueba)"
         type: boolean
         default: false
+      probar_push:
+        description: "Solo enviar una notificación de PRUEBA al móvil"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # solo para guardar docs/*.json en este repositorio
@@ -44,6 +48,7 @@ jobs:
           args=""
           if [ "${{ inputs.forzar }}" = "true" ]; then args="$args --forzar"; fi
           if [ "${{ inputs.simular }}" = "true" ]; then args="$args --simular"; fi
+          if [ "${{ inputs.probar_push }}" = "true" ]; then args="--probar-push"; fi
           python -m vigilante.main $args
       - name: Guardar resultados
         if: always()
