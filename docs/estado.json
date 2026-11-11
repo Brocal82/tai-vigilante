@@ -1,7 +1,22 @@
 {
  "version": 1,
- "ultima_ok": null,
- "ultima_fecha_boe": null,
- "fuentes": {},
- "errores_consecutivos": 0
+ "ultima_ok": "2026-11-11T09:30:51+01:00",
+ "ultima_fecha_boe": "2026-11-11",
+ "fuentes": {
+  "BOE": {
+   "ok": true,
+   "ultima_ok": "2026-11-11T09:30:51+01:00",
+   "error": null,
+   "revisados": 6265
+  },
+  "INAP": {
+   "ok": true,
+   "ultima_ok": "2026-11-11T09:30:51+01:00",
+   "error": null,
+   "revisados": 15
+  }
+ },
+ "errores_consecutivos": 0,
+ "ultima_ok_dia": "2026-11-11",
+ "ultima_ejecucion": "2026-11-11T09:30:51+01:00"
 }
