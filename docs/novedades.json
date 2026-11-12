@@ -1,5 +1,20 @@
 {
  "version": 1,
- "actualizado": "2026-11-11T09:30:51+01:00",
- "items": []
+ "actualizado": "2026-11-12T15:11:36+01:00",
+ "items": [
+  {
+   "id": "INAP:https://www.inap.es/es/noticias/tai-pi-resolucion-valoracion-provisional-meritos-fase-concurso",
+   "fuente": "INAP",
+   "titulo": "TAI-PI Resolución valoración provisional méritos fase concurso",
+   "resumen": "Se ha publicado en la sede electrónica:Resolución de la Comisión Permanente de Selección, por la que se aprueba la valoración provisional de méritos de la fase de concurso de los aspirantes que han superado la fase de oposición de las pruebas selectivas para acceso, por promoción interna para personal funcionario y para personal laboral fijo, al Cuerpo de Técnicos Auxiliares de Informática de la A",
+   "url": "https://www.inap.es/TAI-PI%20Resoluci%C3%B3n%20valoraci%C3%B3n%20provisional%20m%C3%A9ritos%20fase%20concurso",
+   "fecha": "2026-11-12",
+   "categoria": "Otras novedades del proceso",
+   "grupo": "convocatorias",
+   "nivel": "informativo",
+   "canal": "proceso",
+   "detectado": "2026-11-12T15:11:36+01:00",
+   "avisado": true
+  }
+ ]
 }
