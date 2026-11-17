@@ -1,7 +1,30 @@
 {
  "version": 1,
- "actualizado": "2026-11-16T15:13:17+01:00",
+ "actualizado": "2026-11-17T16:06:12+01:00",
  "items": [
+  {
+   "id": "BOE-A-2026-24010",
+   "fuente": "BOE",
+   "seccion": "1",
+   "organismo": "COMUNIDAD AUTÓNOMA DE EXTREMADURA",
+   "titulo": "Corrección de errores del Decreto-ley 4/2026, de 28 de julio, de actuaciones urgentes en materia de urbanismo para la agilización de la aprobación del planeamiento y su ejecución para el impulso a la promoción de vivienda.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24010",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/17/pdfs/BOE-A-2026-24010.pdf",
+   "fecha": "2026-11-17",
+   "categoria": "Norma del temario modificada",
+   "grupo": "normativa",
+   "nivel": "informativo",
+   "canal": "norma",
+   "normas": [
+    "Ley 4/2026"
+   ],
+   "temas_posiblemente_afectados": [
+    104,
+    105
+   ],
+   "detectado": "2026-11-17T16:06:12+01:00",
+   "avisado": true
+  },
   {
    "id": "INAP:https://www.inap.es/es/noticias/tai-pi-resolucion-valoracion-provisional-meritos-fase-concurso",
    "fuente": "INAP",
