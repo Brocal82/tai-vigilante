@@ -1,22 +1,22 @@
 {
  "version": 1,
- "ultima_ok": "2026-11-20T15:33:26+01:00",
- "ultima_fecha_boe": "2026-11-20",
+ "ultima_ok": "2026-11-21T14:51:39+01:00",
+ "ultima_fecha_boe": "2026-11-21",
  "fuentes": {
   "BOE": {
    "ok": true,
-   "ultima_ok": "2026-11-20T15:33:26+01:00",
+   "ultima_ok": "2026-11-21T14:51:39+01:00",
    "error": null,
-   "revisados": 282
+   "revisados": 285
   },
   "INAP": {
    "ok": true,
-   "ultima_ok": "2026-11-20T15:33:26+01:00",
+   "ultima_ok": "2026-11-21T14:51:39+01:00",
    "error": null,
    "revisados": 15
   }
  },
  "errores_consecutivos": 0,
- "ultima_ok_dia": "2026-11-20",
- "ultima_ejecucion": "2026-11-20T15:33:26+01:00"
+ "ultima_ok_dia": "2026-11-21",
+ "ultima_ejecucion": "2026-11-21T14:51:39+01:00"
 }
