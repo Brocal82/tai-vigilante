@@ -1,7 +1,30 @@
 {
  "version": 1,
- "actualizado": "2026-11-24T17:40:08+01:00",
+ "actualizado": "2026-11-25T17:23:55+01:00",
  "items": [
+  {
+   "id": "BOE-A-2026-24700",
+   "fuente": "BOE",
+   "seccion": "1",
+   "organismo": "JEFATURA DEL ESTADO",
+   "titulo": "Real Decreto-ley 42/2026, de 24 de noviembre, por el que se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, y el texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015, de 30 de octubre, en materia de adaptación y reducción de jornada, de permisos por duelo en caso de fallecimiento, de prestación de ayuda para morir y de nacimiento y cuidado del menor.",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24700",
+   "url_pdf": "https://www.boe.es/boe/dias/2026/11/25/pdfs/BOE-A-2026-24700.pdf",
+   "fecha": "2026-11-25",
+   "categoria": "Norma del temario modificada",
+   "grupo": "normativa",
+   "nivel": "informativo",
+   "canal": "norma",
+   "normas": [
+    "Real Decreto Legislativo 5/2015",
+    "Real Decreto-ley 5/2015"
+   ],
+   "temas_posiblemente_afectados": [
+    104
+   ],
+   "detectado": "2026-11-25T17:23:55+01:00",
+   "avisado": true
+  },
   {
    "id": "BOE-A-2026-24692",
    "fuente": "BOE",
